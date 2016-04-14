@@ -8,7 +8,7 @@ My assumptions are:
 the images stay as it is.
 
 3\) The name of resized image isn't very important. And it will be in the
-form "image\_name.resized.format"
+form "image_name.resized.format"
 
 I was searching a lot to find best solution.
 
@@ -20,7 +20,7 @@ At first I looked into ImageMagic documentation:
 
 ImageMagic function convert can be used for batch processing and it
 doesn't modify original image BUT as explained here:
-*http://www.imagemagick.org/Usage/basics/\#mogrify\_convert*
+*http://www.imagemagick.org/Usage/basics#mogrify_convert*
 
 The real problem with using "convert" instead of "mogrify" is that ALL
 the images are read into memory first! Mogrify takes great pains to only
@@ -31,7 +31,7 @@ or something else to solve it but what's the point?
 
 Because when I add additional option as '-format' to mogrify
 
-(*http://www.imagemagick.org/script/command-line-options.php\#format*).
+(*http://www.imagemagick.org/script/command-line-options.php#format*).
 
 original image won't be overwritten.
 
@@ -92,8 +92,8 @@ http://superuser.com/questions/597428/how-can-i-run-mogrify-but-prefix-the-filen
 
 [*http://mywiki.wooledge.org/ParsingLs*](http://mywiki.wooledge.org/ParsingLs)
 
-*http://en.wikipedia.org/wiki/Xargs\#The\_separator\_problem*
+*http://en.wikipedia.org/wiki/Xargs#The_separator_problem*
 
-[*https://github.com/grosser/parallel/blob/master/lib/parallel/processor\_count.rb*](https://github.com/grosser/parallel/blob/master/lib/parallel/processor_count.rb)
+[*https://github.com/grosser/parallel/blob/master/lib/parallel/processor_count.rb*](https://github.com/grosser/parallel/blob/master/lib/parallel/processor_count.rb)
 
 <http://prll.sourceforge.net/shell_parallel.html>
