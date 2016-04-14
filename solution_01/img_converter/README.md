@@ -12,8 +12,7 @@ and [*Unix
 commands*](http://www.tutorialspoint.com/unix/unix-useful-commands.htm)
 and made a small diagram representing classes.
 
-![](doc/images/class_diagram.png){width="3.263888888888889in"
-height="3.1309700349956255in"}
+![](doc/images/class_diagram.png)
 
 To use as **library**:
 
